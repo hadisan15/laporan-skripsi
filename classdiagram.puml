@@ -1,0 +1,51 @@
+@startuml
+
+skinparam lineType ortho
+
+class "pesepeda"{
+  id
+  no_identitas
+  nama
+  tanggal_lahir
+  jenis_kelamin
+  alamat
+  telp
+  email
+  foto
+  tanggal_daftar
+
+  create()
+  edit()
+  update()
+  delete()
+}
+
+class "kategori"{
+  id
+  kode_kategori
+  nama_kategori
+  umur_kategori
+  gambar_kategori
+
+  create()
+  edit()
+  update()
+  delete()
+}
+
+class "kategoripesepeda"{
+  id
+  challenge_kom
+  kode_kategori
+  bamboo_rafting
+
+  create()
+  edit()
+  update()
+  delete()
+}
+
+"pesepeda" - "kategoripesepeda"
+"kategori" - "kategoripesepeda"
+
+@enduml

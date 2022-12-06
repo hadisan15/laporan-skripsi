@@ -1,0 +1,66 @@
+/* img {
+  float: left;
+} */
+.valindo-logo {
+  margin-left: 200px;
+  margin-top: -20px;
+  width: 300px;
+  
+}
+.valindo-logo-page-l {
+  margin-left: 270px;
+  margin-top: -20px;
+  width: 45%;
+}
+/* table {
+  margin-left: auto;
+  margin-right: auto;
+} */
+div {
+  margin-top: 20px;
+}
+h5 {
+  margin-right: auto;
+  margin-left: auto;
+}
+.ttd {
+  margin-left: 450px;
+  text-align: center;
+}
+.ttd .mengetahui {
+  margin-bottom: 75px;
+}
+.ttd .jabatan {
+  margin-top: -3px;
+  font-weight: bold;
+}
+.ttd .nama {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.alamat {
+  font-size: smaller;
+  text-align: center;
+  margin-top: -1px;
+  /* margin-left: 70px; */
+}
+.top-line {
+  margin-top: -12px;
+  border: none;
+  height: 3px;
+}
+.title {
+  text-align: center;
+  margin-top: -10px;
+}
+.title2 {
+  text-align: center;
+  margin-top: -50px;
+}
+.table {
+  margin-top: -30px;
+}
+td {
+  /* margin-top: 50px; */
+  padding: 6px;
+}
